@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="64" tileheight="64" infinite="0" nextlayerid="15" nextobjectid="3">
+ <tileset firstgid="1" source="Tilesets/Fences.tsx"/>
+ <tileset firstgid="17" source="Tilesets/Grass.tsx"/>
+ <tileset firstgid="97" source="Tilesets/Hills.tsx"/>
+ <tileset firstgid="133" source="Tilesets/House Decoration.tsx"/>
+ <tileset firstgid="187" source="Tilesets/House.tsx"/>
+ <tileset firstgid="222" source="Tilesets/interaction.tsx"/>
+ <tileset firstgid="224" source="Tilesets/Objects.tsx"/>
+ <tileset firstgid="234" source="Tilesets/Paths.tsx"/>
+ <tileset firstgid="250" source="Tilesets/Plant Decoration.tsx"/>
+ <tileset firstgid="260" source="Tilesets/Water.tsx"/>
+ <layer id="14" name="Water" width="6" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Ground" width="6" height="6">
+  <data encoding="csv">
+59,22,59,59,59,59,
+59,59,59,59,59,59,
+59,59,59,59,59,31,
+59,59,32,59,59,59,
+31,59,59,59,30,59,
+59,59,59,59,59,21
+</data>
+ </layer>
+ <layer id="2" name="Fencing" width="6" height="6">
+  <data encoding="csv">
+2,15,15,15,15,4,
+5,0,0,0,0,5,
+5,0,0,0,0,5,
+5,0,0,0,0,5,
+5,0,0,0,0,5,
+10,15,15,15,15,12
+</data>
+ </layer>
+ <objectgroup id="13" name="Trees">
+  <object id="2" gid="230" x="132" y="120" width="56" height="116"/>
+ </objectgroup>
+ <objectgroup id="12" name="Player">
+  <object id="1" name="Start" x="159.019" y="289.262">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="11" name="Collision" width="6" height="6" visible="0">
+  <data encoding="csv">
+223,223,223,223,223,223,
+223,0,223,0,0,223,
+223,0,0,0,0,223,
+223,0,0,0,0,223,
+223,0,0,0,0,223,
+223,223,223,223,223,223
+</data>
+ </layer>
+</map>
